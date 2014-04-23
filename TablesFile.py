@@ -1,5 +1,6 @@
 #Table-File
 #==========
+from django.db import models
 
 """
 The People List Entity is a list of system users. It contains the User ID assigned to the user (provided by UNO), the user type (administrator, staff, user), and the password linked to the user account.
